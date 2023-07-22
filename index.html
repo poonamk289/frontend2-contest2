@@ -51,7 +51,7 @@
             <div class="search-text">Search For Recipes</div>
             <div style="display: flex;margin-left: 70px;margin-top: 10px;">
                
-                    <input class="input-serach-text" type="text" placeholder="Search for recipes...">
+                    <input class="input-serach-text" type="text" placeholder="Search for recipes..." name="recipe-search">
                 
                     <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
@@ -59,9 +59,9 @@
 
     <!--select reciepe-->
         <div class="select-rec">
-            <button class="select-rec-button" style="background-color: #EAAA00;color: white;">All Recipes  <span class="btn-arrow">  ></span></button>
-            <button class="select-rec-button" style="background-color: #C4D600;color: white;">Veg Recipes Only  <span class="btn-arrow">  ></span></button>
-            <button class="select-rec-button" style="background-color: #DC582A;color: white;">Non Veg Recipes  <span class="btn-arrow">  ></span></button>
+            <button class="select-rec-button" id="bothnv" style="background-color: #EAAA00;color: white;">All Recipes  <span class="btn-arrow">  ></span></button>
+            <button class="select-rec-button"  id="vegonly" style="background-color: #C4D600;color: white;">Veg Recipes Only  <span class="btn-arrow">  ></span></button>
+            <button class="select-rec-button" id="non-vegonly" style="background-color: #DC582A;color: white;">Non Veg Recipes  <span class="btn-arrow">  ></span></button>
         </div>
 
     <!--main content-->
@@ -71,8 +71,8 @@
                 <div style="top:20px;left:15px;font-size: 22px;font-weight: 500;letter-spacing: 1px;">Filters</div>
                 <div style="display: flex;flex-direction: column; padding-top: 20px; gap: 20px;">
                     <div style="font-size: 18px;font-weight: 500;line-height: 27px;">Rating</div>
-                    <div style="font-family: inter;font-size: 14px;font-weight: 400;line-height: 16px;"><input type="checkbox">4 and Above</div>
-                    <div style="font-family: inter;font-size: 14px;font-weight: 400;line-height: 16px;"><input type="checkbox">Below 4</div>
+                    <div style="font-family: inter;font-size: 14px;font-weight: 400;line-height: 16px;"><input type="checkbox"  name="abovecheck">4 and Above</div>
+                    <div style="font-family: inter;font-size: 14px;font-weight: 400;line-height: 16px;"><input type="checkbox" name="belowcheck">Below 4</div>
                 </div>
             </div>
 
