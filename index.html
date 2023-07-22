@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!--nav-->
+
+    <div class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.svg" alt="sad">
+            </div>
+            <div class="right-nav">
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                <div class="profile">
+                    <img  style="height: 40px;width: 40px;" src="Profile.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------banner-->
+        <div class="hero">
+            <div class="banner">
+                <!-- <img style="height: 355px;width: 100%;"  src="banner.svg" alt="nncx"> -->
+                <div class="hero-content">
+                    <div style="font-size: 24px;color:#DC582A;font-family: Poppins;">Trending now</div>
+                    <div style="font-size: 40px;color:white;font-weight: 700;">Mike’s famous salad with cheese</div>
+                    <div style="font-size: 20px;color:white;margin-top:3px;font-weight: 500;">By John Mike</div>
+                </div>
+            </div>
+            
+        </div>
+    <!--search-->
+
+        <div style="padding: 20px;">
+            <div class="search-text">Search For Recipes</div>
+            <div style="display: flex;margin-left: 70px;margin-top: 10px;">
+               
+                    <input class="input-serach-text" type="text" placeholder="Search for recipes...">
+                
+                    <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+    <!--select reciepe-->
+        <div class="select-rec">
+            <button class="select-rec-button" style="background-color: #EAAA00;color: white;">All Recipes  <span class="btn-arrow">  ></span></button>
+            <button class="select-rec-button" style="background-color: #C4D600;color: white;">Veg Recipes Only  <span class="btn-arrow">  ></span></button>
+            <button class="select-rec-button" style="background-color: #DC582A;color: white;">Non Veg Recipes  <span class="btn-arrow">  ></span></button>
+        </div>
+
+    <!--main content-->
+
+        <div class="main">
+            <div class="filter">
+                <div style="top:20px;left:15px;font-size: 22px;font-weight: 500;letter-spacing: 1px;">Filters</div>
+                <div style="display: flex;flex-direction: column; padding-top: 20px; gap: 20px;">
+                    <div style="font-size: 18px;font-weight: 500;line-height: 27px;">Rating</div>
+                    <div style="font-family: inter;font-size: 14px;font-weight: 400;line-height: 16px;"><input type="checkbox">4 and Above</div>
+                    <div style="font-family: inter;font-size: 14px;font-weight: 400;line-height: 16px;"><input type="checkbox">Below 4</div>
+                </div>
+            </div>
+
+            <div class="list">
+                <div style="display: flex;flex-direction:row;gap: 10px;margin-bottom: 10px;">
+                    <div class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction:row;gap: 10px;margin-bottom: 10px;">
+                    <div class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: flex;flex-direction:row;gap: 10px;margin-bottom: 10px;">
+                    <div class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: flex;flex-direction:row;gap: 10px;margin-bottom: 10px;">
+                    <div class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: flex;flex-direction:row;gap: 10px;margin-bottom: 10px;">
+                    <div class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="list-col">
+                        <div>
+                            <img class="rec-image" src="">
+                        </div>
+                        <div class="category"></div>
+                        <div style="padding-left: 20px;padding-right: 20px;">
+                            <div style="display: flex;justify-content: space-between;padding-bottom: 8px;">
+                                <div class="title"></div>
+                                <div style="display: flex;"><i class="fa-solid fa-star" style="color: #FDC040;padding-right: 7px;"></i><div class="rating"></div></div>
+                                
+                            </div>
+                            <div style="display: flex;justify-content: space-between">
+                                <div class="time"></div>
+                                <div>
+                                    <i class="fa-regular fa-heart  fa-lg heart" style="color: #000000;padding-right: 10px;"></i>
+                                    <i class="fa-regular fa-comment fa-rotate-270 fa-lg" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+<!-- footer-->
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-about">
+                <img src="logo.svg">
+                <div class="footer-text">Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</div>
+            </div>
+            <div class="footer-links">
+                <div style="padding-left: 37px;">Company</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Activity</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-resources">
+                <div style="padding-left: 37px;">Resources</div>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Use Cases</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Insights</a></li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <img src="logo.svg">
+                <div class="footer-form-text">Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</div>
+                <div style="display: flex;gap:12px">
+                <input class="input-serach-text" type="text" style="border: 1px solid rgb(86, 85, 85);border-top-right-radius: 5px;border-bottom-right-radius: 5px;" placeholder="Your Email">
+                
+                <button class="search-icon" style="border-top-left-radius: 5px;border-bottom-left-radius: 5px;">Subscribe</button>
+                 </div>
+            </div>
+        </div>
+
+        <div class="social">
+           
+            <img src="Instagram.svg">
+            <img src="Twitter.svg">
+            <img src="Linkedin.svg">
+            <img src="Facebook.svg">
+           
+        </div>
+    </div>
+
+
+  
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
